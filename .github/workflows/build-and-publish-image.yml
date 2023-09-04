@@ -26,5 +26,5 @@ jobs:
             password: ${{ secrets.REGISTRY_PASSWORD }}
             
         - name: 'Build and Push Container Image to registry' 
-          run: az acr build --registry CsdContainerDemoRegistry --image WebApiImage --file ./ContainerizedAppDeploymentDemo/Dockerfile
-         
+          run: az acr build --image WebApiImage --registry CsdContainerDemoRegistry --file Dockerfile ./ContainerizedAppDeploymentDemo
+                   
