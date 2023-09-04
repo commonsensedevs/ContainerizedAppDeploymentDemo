@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8FmhD2sQ+6bDzpD1Q26veHjD2BmwUNM/beXC9M/hhG0=",
+  "Source": "ContainerizedAppDeploymentDemo",
+  "BasePath": "_content/ContainerizedAppDeploymentDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
